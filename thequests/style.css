@@ -1,0 +1,221 @@
+/* Reset default margins */
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set box-sizing to border-box */
+* {
+  box-sizing: border-box;
+}
+
+/* Header - logo and navigation buttons */
+
+.headerr {
+  background: linear-gradient(89deg, #B40000 -24.19%, #4E0000 116.93%);
+  min-height: 86px;
+  max-width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.headerr > * {
+  margin: 0;
+}
+
+/* Logo */
+.headerr .thequests {
+  width: 100%;
+  max-width: 295px;
+  height: 85px;
+  object-fit: contain;
+  margin-left: 20px;
+}
+
+/* Knopki in header */
+.headerr .headerbuttons {
+  /* gap: 34px; not working at the moment :( */
+  display: flex;
+  align-items: flex-start;
+  /* position: relative; */
+  justify-content: flex-end;
+  margin-right: 30px;
+}
+
+.headerbuttons .navbuttons {
+  position: relative;
+  font-family: Montserrat;
+  color: #F0F0F0;
+  font-size: 23px;
+  width: fit-content;
+  margin-top: -1px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.navbuttons button {
+  font-family: inherit;
+  color: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  margin-right: 34px;
+  transition: filter 0.2s ease-in-out;
+}
+
+.navbuttons button:hover {
+  /* color: #d4d4d4; */
+  filter: brightness(100%) blur(0.6px) saturate(150%) sepia(10%) contrast(110%) invert(6%) drop-shadow(0 0 10px rgba(240, 239, 239, 0.6));
+}
+
+/* Nazvanie - Headline */
+
+.headline {
+  flex-shrink: 0;
+  margin-left: 60px;
+}
+
+.headline .h1landing {
+  color: #161616;
+  font-family: Montserrat;
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width: 960px;
+  height: 162px;
+}
+
+.headline .h2landing {
+  color: #161616;
+  font-family: Montserrat;
+  font-size: 43px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  width: 960px;
+  height: 117px;
+  margin-top: 95px;
+}
+
+/* Nazvanie - Headline */
+
+/* Photos - Slideshow(future) */
+
+.slideshowphoto {
+  display: flex;
+  width: 500px;
+  height: 624px;
+  justify-content: center;
+  align-items: flex-start;
+  /* gap: 30px; */
+  flex-shrink: 0;
+  position: absolute;
+  top: 48%;
+  right: 70px;
+  z-index: 10;
+  transform: translateY(-50%);
+}
+
+.slideshowphotoborder {
+  width: 500px;
+  height: 624px;
+  flex-shrink: 0;
+  border-radius: 40px;
+  border: 5px solid #FFB800;
+  background: rgba(196, 196, 196, 0.00);
+  position: absolute;
+  top: 47%;
+  right: 80px;
+  z-index: 10;
+  transform: translateY(-50%);
+}
+
+/* Photos - Slideshow(future) */
+
+/* Button to book a game */
+
+.bookbuttonlanding {
+  border-radius: 18px;
+  background: linear-gradient(86deg, #B40000 -1.25%, #4E0000 102.51%);
+  box-shadow: 0px 4px 8.4px 0px rgba(147, 0, 0, 0.53);
+  width: 500px;
+  height: 100px;
+  /* margin-left: 35px; */
+  margin-top: 105px;
+  padding: 5px;
+}
+
+.bookbuttonlanding button{
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 700;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  display: flex;
+  text-align: center;
+  line-height: normal;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  transition: filter 0.2s ease-in-out;
+}
+
+.bookbuttonlanding button:hover {
+  filter: brightness(100%) blur(0.6px) saturate(150%) sepia(10%) contrast(110%) invert(6%) drop-shadow(0 0 10px rgba(240, 239, 239, 0.6));
+  box-shadow: 0 5px 80px rgba(59, 0, 0, 0.2);
+}
+
+/* quest choosing */
+
+.graybackground {
+  width: 100%;
+  height: 1000px;
+  flex-shrink: 0;
+  background: #F0F0F0;
+  margin-top: 215px;
+}
+
+.headline2 {
+  flex-shrink: 0;
+  margin-left: 60px;
+  
+}
+
+.headline2 .h1questchoose {
+  color: #161616;
+  font-family: Montserrat;
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width: 960px;
+  height: 162px;
+  /* margin-top: 150px; */
+}
+
+.headline2 .h2questchoose {
+  color: #161616;
+  font-family: Montserrat;
+  font-size: 43px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  width: 960px;
+  height: 117px;
+  margin-top: 95px;
+}
